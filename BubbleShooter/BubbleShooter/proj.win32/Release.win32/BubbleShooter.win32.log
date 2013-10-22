@@ -1,0 +1,38 @@
+﻿Build started 3/7/2013 11:46:13 PM.
+     1>Project "C:\Users\Evan Griffin\Desktop\BubbleShooter\BubbleShooter\proj.win32\BubbleShooter.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release.win32\BubbleShooter.win32.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx" /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx\include" /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx\kazmath\include" /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx\platform\win32" /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx\platform\third_party\win32" /I"C:\Users\Evan Griffin\Desktop\BubbleShooter\cocos2dx\platform\third_party\win32\OGLES" /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGSNDEBUG /D _UNICODE /D UNICODE /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp Bubble.cpp BubbleGrid.cpp Cannon.cpp main.cpp PlayerBubble.cpp
+         AppDelegate.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         HelloWorldScene.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         Bubble.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         BubbleGrid.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         Cannon.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         main.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         PlayerBubble.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease.win32\ /nologo /fo"Release.win32\BubbleShooter.res" BubbleShooter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Evan Griffin\Desktop\BubbleShooter\Release.win32\BubbleShooter.win32.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Evan Griffin\Desktop\BubbleShooter\Release.win32\\" libcocos2d.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release.win32\BubbleShooter.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Evan Griffin\Desktop\BubbleShooter\Release.win32\BubbleShooter.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Evan Griffin\Desktop\BubbleShooter\Release.win32\BubbleShooter.win32.lib" /MACHINE:X86 Release.win32\BubbleShooter.res
+         Release.win32\AppDelegate.obj
+         Release.win32\HelloWorldScene.obj
+         Release.win32\Bubble.obj
+         Release.win32\BubbleGrid.obj
+         Release.win32\Cannon.obj
+         Release.win32\main.obj
+         Release.win32\PlayerBubble.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'libcocos2d.lib'
+     1>Done Building Project "C:\Users\Evan Griffin\Desktop\BubbleShooter\BubbleShooter\proj.win32\BubbleShooter.win32.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.90
